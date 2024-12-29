@@ -51,5 +51,5 @@ Prima di proseguire, esistono versioni di Bottles non distribuite attraverso fla
 
 ***
 
-# Se nessuno di questi metodi funzionasse, si dovrà installare una macchina virtuale con una distro supportata ufficialmente oppure Windows
+### Se nessuno di questi metodi funzionasse, si dovrà installare una macchina virtuale con una distro supportata ufficialmente oppure Windows
 Se questa fosse l'unica opzione, consiglio l'uso di KVM e QEMU (opzionalmente anche Virt-Manager per avere una GUI) in modo che le prestazioni siano migliori di VirtualBox
