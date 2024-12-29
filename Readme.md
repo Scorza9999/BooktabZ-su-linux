@@ -32,3 +32,19 @@ Se la tua distro non è basata su Debian o Arch, come Fedora, oppure l'installaz
    `wine [percorso_booktabz_windows]`
    dove percorso_booktabz_windows è la posizione nel vostro filesystem in cui avete salvato il programma per Windows.
 4. **Se non dovesse funzionare correttamente**, installa le dipendenze necessarie attraverso il proprio package manager.
+
+## BooktabZ attraverso Bottles
+Prima di proseguire, esistono versioni di Bottles non distribuite attraverso flatpak (come sull'AUR, su Fedora...), tuttavia (quando ho scritto questa guida) gli sviluppatori di Bottles distribuiscono solo su flatpak. In questa guida, installerò attraverso flatpak
+
+1. Installa flatpak
+   `sudo apt install flatpak`
+   `sudo dnf install flatpak`
+   `sudo pacman -S install flatpak`
+2. Installa Bottles con flatpak
+   `flatpak install flathub bottles`
+3. Apri Bottles nella GUI
+4. Crea una nuova bottiglia con bottles
+5. Assegna a questa bottiglia un nome e configura l'ambiente come applicazione
+6. Una volta completata la creazione, clicca sulla bottiglia appena creata e aggiungi un programma (oppure avvia un eseguibile). Questo eseguibile è BooktabZ per Windows.
+7. Avvia la bottiglia (se non fosse partita) e installa in questo modo BooktabZ.
+8. Con Bottles (al momento di scrittura) non è necessaria l'installazione di ulteriori componenti, tuttavia se in futuro fosse necessario, si installano attraverso la GUI
