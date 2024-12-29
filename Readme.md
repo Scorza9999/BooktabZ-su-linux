@@ -48,3 +48,8 @@ Prima di proseguire, esistono versioni di Bottles non distribuite attraverso fla
 6. Una volta completata la creazione, clicca sulla bottiglia appena creata e aggiungi un programma (oppure avvia un eseguibile). Questo eseguibile è BooktabZ per Windows.
 7. Avvia la bottiglia (se non fosse partita) e installa in questo modo BooktabZ.
 8. Con Bottles (al momento di scrittura) non è necessaria l'installazione di ulteriori componenti, tuttavia se in futuro fosse necessario, si installano attraverso la GUI
+
+***
+
+# Se nessuno di questi metodi funzionasse, si dovrà installare una macchina virtuale con una distro supportata ufficialmente oppure Windows
+Se questa fosse l'unica opzione, consiglio l'uso di KVM e QEMU (opzionalmente anche Virt-Manager per avere una GUI) in modo che le prestazioni siano migliori di VirtualBox
